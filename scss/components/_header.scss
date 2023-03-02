@@ -1,0 +1,45 @@
+.info{
+display: block;
+    position: absolute;
+    float: left;
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+}
+.logo-lorien{
+    color:black; 
+    font-size: 80px;             
+    font-style: normal ;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+h1::first-letter{
+    color: rgba(13, 114, 109);
+}
+
+header{
+    background-color: white;
+    position: sticky;
+    top:0;
+    nav{
+        list-style: none ;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        ul{
+            li{
+                display: inline-block;
+                margin-right: 20px;
+                a{ text-decoration: none ;
+                    color:black;
+                }
+            }
+        }
+    }
+}
