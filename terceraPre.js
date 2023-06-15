@@ -5,4 +5,5 @@ boton.addEventListener('click', () => {
     alert ('Ir al carrito de compras');
 });
 
-    
+//localStorage
+
